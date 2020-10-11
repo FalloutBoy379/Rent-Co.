@@ -8,9 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
    <style type="text/css">
-      body{
-        /*background-image:linear-gradient(to bottom, rgb(127, 127, 224),lightskyblue,rgb(127, 127, 224),rgb(127, 127, 224)   ) !important;
-      */}
+      html{
+        scroll-behavior: smooth;
+      }
       #logoimg{
         width:50%;
       }
@@ -125,7 +125,12 @@
         align-content: center;
         justify-content: center;
         text-align: center;
+        padding:0.88em 0 0.44em 0;
+        margin:0.8em 0 0.4em 0;
+        font-weight:none !important;
+        font-family: 'Montserrat', sans-serif;
       }
+      
     </style>
     <script src="https://kit.fontawesome.com/43364ab124.js" crossorigin="anonymous"></script>
     <!-- Bootstrap CSS -->
@@ -144,10 +149,10 @@
             <a class="nav-link" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#one">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact Us</a>
+            <a class="nav-link" href="#three">Contact Us</a>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
@@ -162,15 +167,12 @@
         <p class="lead"><ul><li>We are a Mumbai based start-up and our goal is to create a rental model for students, to make their needs accessible and affordable.</li><br><li>We are working on a platform where we help in connecting you to the fellow renters from your college/university campus.</li><br> <li> You can put up requests for anything on our website as per your need. You can rent out things sitting at your homes to your fellow students in college/university campus to earn a few bucks on the side while studying.</p>
         </li></ul>
           <hr class="my-2">
-        <p class="lead">
-          <a class="btn btn-primary btn-lg" href="Jumbo action link" role="button">Jumbo action name</a>
-        </p>
       </div>
     </div>
     <div class="container about-heading">
       
     </div>
-    <div class="container about-heading">
+    <div id="one" class="container about-heading">
       <h2>Meet the Team</h2>
     </div>
     <div class="container-fluid body2">
@@ -199,7 +201,7 @@
     </div>
     <div class="container survey-container">
       <button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModalLong">
-    <div class="container about-heading">
+    <div id="two" class="container surveybtn">
       <h3>In the meantime, you can help us by filling this small survey. </h3>
     </div>    
       </button>
@@ -230,7 +232,7 @@
     </div>
    
     <div class="footer">
-      <div class="container about-heading contact">
+      <div id="three" class="container about-heading contact">
         <h1>Contact Us</h1>
         <div class="links">
           <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
@@ -240,7 +242,9 @@
         </div>
       </div>
     </div>
-
+    <script type="text/javascript">
+      
+    </script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
