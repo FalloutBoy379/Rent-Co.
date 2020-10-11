@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <style type="text/css">
+      body{
+        background-image:linear-gradient(to bottom, rgb(127, 127, 224),lightskyblue,rgb(127, 127, 224),rgb(127, 127, 224)) !important;
+      }
+      #logoimg{
+        width:50%;
+      }
+      .nav-link{
+        color:#0764A0;
+        font-size: 130%;
+        transition: letter-spacing 0.5s;
+        font-family: 'Open Sans', sans-serif;
+      }
+      .nav-link:hover{
+        color:#28516b;
+        letter-spacing: 0.09em;
+      }
+      button[type=submit]{
+        background-color:#0764A0 ;
+        color:white;
+        transition: letter-spacing 0.5s;
+      }
+      button[type=submit]:hover{
+        letter-spacing: 0.09em;
+      }
+      
+      .about-heading{
+        margin-top:60px;
+        font-family: 'Open Sans', sans-serif;
+        font-size:50%;
+        text-align: center;
+      }
+      .body1 .row{
+        background-color: #8BD0CD;
+        padding:5%;
+      }
+      .navbar-toggler-icon{
+        color:black;
+      }
+      .body2{
+        margin-top:2%;
+        width:100%;
+        background-color: #8BD0CD;
+      }
+      .body2 span{
+        background-color:#0764A0;
+        font-family: 'Open Sans', sans-serif;
+        border-radius:10%;
+        color:white;
+        padding:20px;
+        margin: 0 auto;
+        transition: background-color 0.2s, letter-spacing 0.2s;
+        cursor: pointer;
+        width:100%;
+      }
+      .body2 span:hover{
+        background-color:#28516b; 
+        letter-spacing: 0.03em;
+      }
+      .body2 .row{
+        padding:5% 10% 5% 10%;
+      }
+      .column{
+        text-align:center;
+      }
+      .body3{
+        margin-top:2%;
+        width:100%;
+        background-color: #8BD0CD;
+
+      }
+      .body4{
+        margin-top:2%;
+        width:100%;
+        background-color: #8BD0CD;
+        padding:2% 10%;
+      }
+      @media only screen and (max-width:600px) {
+      .column{
+        margin-top:15%;
+      }
+      }
+      .body3 .row{
+        padding:2% 10%;
+        font-size: large;
+        font-family: 'Open Sans', sans-serif;
+      }
+      #form{
+        width:100%;
+        height:80em;
+      }
+      .fa{
+       padding: 5% 5%;
+      }
+      .links{
+        font-size: 500%;
+      }
+      .footer{
+        background-color: #32383b;
+      }
+      .footer h1{
+        color:lightskyblue;
+      }
+    </style>
+    <script src="https://kit.fontawesome.com/43364ab124.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <a class="navbar-brand" href="#"><img id="logoimg" src="logo.webp" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggle"><i class="fas fa-bars"></i></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <div class="container about-heading">
+      <h1>Welcome to the Rent Company</h1>
+    </div>
+    <div class="container-fluid body1">
+      <div class="row">
+        <div class="col-xs-6">
+         <p> We are a Mumbai based start-up and our goal is to create a rental model for students, to make their needs accessible and affordable.</p>
+        </div>
+        <div class="col-xs-6">
+          <p>We are working on a platform where we help in connecting you to the fellow renters from your college/university campus. You can put up requests for anything on our website as per your need. You can rent out things sitting at your homes to your fellow students in college/university campus to earn a few bucks on the side while studying.</p>
+        </div>
+      </div>
+    </div>
+    <div class="container about-heading">
+      <h2>Meet the Team</h2>
+    </div>
+    <div class="container-fluid body2">
+      <div class="row">
+        <div class="col-sm-4 column">
+          <span>Aaquib Niyama</span>
+        </div>
+        <div class="col-sm-4 column">
+        <span>Sahil Ramane</span>
+        </div>
+        <div class="col-sm-4 column">
+        <span>Shreeya Rokade</span>
+        </div>
+      </div>
+    </div>
+    <div class="container about-heading">
+      <h1>About Us</h1>
+    </div>
+    <div class="container-fluid body3">
+      <div class="row">
+        <div class="col-sm-12">
+          <p>We are a group out on a mission to rent out satisfaction by contributing in fulfilling your requirements. We hope that you love our idea so far and our team is currently on a run to build our user experience with a new website and many new features are upcoming.</p>
+        </div>
+        </div>
+    </div>
+    <div class="container about-heading">
+      <h1>Survey</h1>
+    </div>
+    <div class="container body4">
+      <iframe src="https://forms.gle/TptXrhZtgso4rBP56" id="form">
+      </iframe>
+    </div>
+    <div class="footer">
+      <div class="container about-heading">
+        <h1>Contact Us</h1>
+        <div class="links">
+          <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          <a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+          <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
